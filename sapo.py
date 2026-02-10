@@ -10,7 +10,7 @@ Pedido = namedtuple('Pedido', ['cliente', 'producto', 'cantidad', 'precio', 'est
 pedidos_db = [
     Pedido('Juan Perez', 'Laptop', 1, 15000, 'pagado'),
     Pedido('Maria Lopez', 'Mouse', 2, 250, 'pendiente'),
-    Pedido('Juan Perez', 'Teclado', 1, 800, 'pagado'),
+    Pedido('Martin Perez', 'Teclado', 1, 800, 'pagado'),
     Pedido('Pedro Gil', 'Monitor', 2, 4000, 'cancelado'),
     Pedido('Ana Ruiz', 'USB', 5, 100, 'pagado')
 ]
